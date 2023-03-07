@@ -1,5 +1,5 @@
 import unittest
-from translator import Translator
+from final_project.my_package.translator import Translator
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 class TestTranslator(unittest.TestCase):
@@ -30,3 +30,4 @@ class TestTranslator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
